@@ -1,48 +1,94 @@
-.header {
-    display: inline;
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+}
+html body{
+  margin: 0;
+  padding: 0;
 }
 
-.img {
-    float: left;
+.topp {
+    background-color: #333;
+    height: 56px;
 }
 
-.left::after {
-  margin:0;
-    float: left;
-
-
-
+.left {
+    border: 0;
+    margin: 0;
+    padding: 0px;
 }
-.left li{
-  display: inline;
-  clear: both;
-  content: "";
-  height:0;
 
+a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: top;
+}
 
+.topp li {
+    display: inline-block;
 }
 
 .right {
-  margin:0;
-    float: right;
-
-  }
-  .right li{
-    display: inline;
-    clear:both;
-    content: "";
-    height: 0;
+    border: 0;
+    margin: 0;
     padding: 0;
+}
 
-  }
-
-li {
-    list-style-type: none;
+.right li {
+    float: right;
 }
 
 .textbutt {
-    clear: both;
+    background-color: #444;
     display: inline-block;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
+/*.textbutt  .white {
+    color:white;
+    font-size: 18px
+}*/
 
+/*.textbutt h1 {
+    font-size: 16px
+}*/
+.what{
+  color: white;
+  font-size: 18px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.drib{
+  font-size: 18px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.textbutt {
+  margin: 0;
+  border: 0;
+    padding: 0;
+    /*font-size: 13px;*/
+}
+.grey5{
+  background-color: #999;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
+.pink5{
+  background-color: #ea4c89;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  color: white;
 }
