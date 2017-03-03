@@ -1,0 +1,48 @@
+.header {
+    display: inline;
+}
+
+.img {
+    float: left;
+}
+
+.left::after {
+  margin:0;
+    float: left;
+
+
+
+}
+.left li{
+  display: inline;
+  clear: both;
+  content: "";
+  height:0;
+
+
+}
+
+.right {
+  margin:0;
+    float: right;
+
+  }
+  .right li{
+    display: inline;
+    clear:both;
+    content: "";
+    height: 0;
+    padding: 0;
+
+  }
+
+li {
+    list-style-type: none;
+}
+
+.textbutt {
+    clear: both;
+    display: inline-block;
+
+
+}
